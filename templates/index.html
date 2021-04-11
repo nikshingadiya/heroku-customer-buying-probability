@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>customer_prediction</title>
+
+
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
+    </head>
+
+    <body>
+        <h1> Enter The Field Value</h1>
+        <div class="container">
+        <form id="form" name="form" method="post" action="">
+            <div class="age_class">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="Age" min="15" max="45" required>
+            </div>
+
+            <div class="ease_class">
+                <label for="ease">Ease and convenient</label>
+                <select id="ease" name="Ease and convenient" required>
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="Strongly agree">Strongly agree</option>
+                  <option value="Agree">Agree</option>
+                  <option value="Neutral">Neutral</option>
+                  <option value="Disagree">Disagree</option>
+                  <option value="Strongly disagree">Strongly disagree</option>
+                </select>
+            </div>
+
+            <div class="time_class">
+                <label for="time">Time saving</label>
+                <select id="time" name="Time saving" required>
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="Strongly agree">Strongly agree</option>
+                  <option value="Agree">Agree</option>
+                  <option value="Neutral">Neutral</option>
+                  <option value="Disagree">Disagree</option>
+                  <option value="Strongly disagree">Strongly disagree</option>
+                </select>
+            </div>
+            <div class="choice_class">
+                <label for="choice">More restaurant choices</label>
+                <select id="choice" name="More restaurant choices" required>
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="Strongly agree">Strongly agree</option>
+                  <option value="Agree">Agree</option>
+                  <option value="Neutral">Neutral</option>
+                  <option value="Disagree">Disagree</option>
+                  <option value="Strongly disagree">Strongly disagree</option>
+                </select>
+            </div>
+            <div class="payment_class">
+                <label for="payment">Easy Payment option</label>
+                <select id="payment" name="Easy Payment option" required>
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="Strongly agree">Strongly agree</option>
+                  <option value="Agree">Agree</option>
+                  <option value="Neutral">Neutral</option>
+                  <option value="Disagree">Disagree</option>
+                  <option value="Strongly disagree">Strongly disagree</option>
+                </select>
+            </div>
+            <div class="discount_class">
+                <label for="discount" >More Offers and Discount</label>
+                <select id="discount" name="More Offers and Discount" required>
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="Strongly agree">Strongly agree</option>
+                  <option value="Agree">Agree</option>
+                  <option value="Neutral">Neutral</option>
+                  <option value="Disagree">Disagree</option>
+                  <option value="Strongly disagree">Strongly disagree</option>
+                </select>
+            </div>
+            <div class="food_class">
+                <label for="food" >Good Food quality</label>
+                <select id="food" name="Good Food quality" required>
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="Strongly agree">Strongly agree</option>
+                  <option value="Agree">Agree</option>
+                  <option value="Neutral">Neutral</option>
+                  <option value="Disagree">Disagree</option>
+                  <option value="Strongly disagree">Strongly disagree</option>
+                </select>
+            </div>
+            <div class="tracking_class">
+                <label for="tracking" >Good Tracking system</label>
+                <select id="tracking" name="Good Tracking system" required >
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="Strongly agree">Strongly agree</option>
+                  <option value="Agree">Agree</option>
+                  <option value="Neutral">Neutral</option>
+                  <option value="Disagree">Disagree</option>
+                  <option value="Strongly disagree">Strongly disagree</option>
+                </select>
+            </div>
+
+            <div class="unaffordable_class">
+                <label for="unaffordable" >Unaffordable</label>
+                <select id="unaffordable" name="Unaffordable" required>
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="Strongly agree">Strongly agree</option>
+                  <option value="Agree">Agree</option>
+                  <option value="Neutral">Neutral</option>
+                  <option value="Disagree">Disagree</option>
+                  <option value="Strongly disagree">Strongly disagree</option>
+                </select>
+            </div>
+
+            <div class="wait_time_class">
+                <label for="wait_time" >Maximum wait time</label>
+                <select id="wait_time" name="Maximum wait time" required>
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="30 minutes">30 minutes</option>
+                  <option value="45 minutes">45 minutes</option>
+                  <option value="60 minutes">60 minutes</option>
+                  <option value="More than 60 minutes">more than 60 minutes</option>
+
+                </select>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+            <div>
+              <button id="reset" onClick="window.location.reload();" type="button">Reset</button>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>

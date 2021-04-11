@@ -1,0 +1,109 @@
+#form {
+    background-color:rgb(230, 218, 179);
+
+    height: 560px;
+    width: 580px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    padding: 0px;
+
+    padding-bottom: 0px;
+    box-shadow: 12px 12px 7px grey;
+    text-align:center;
+    border: 3px solid
+
+}
+label {
+    /* display: flex; */
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: rgb(41, 57, 201);
+    height: 20px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 8px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:6px;
+
+}
+button
+{
+    height: 30px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px 10px 10px 10px;
+    width: 105px;
+    justify-content: flex-end;
+    border: 1px solid #000;
+    margin-top: 20px;
+    float:left;
+    text-align:center;
+    margin-left:150px;
+    margin-bottom:25px;
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 105px;
+    justify-content: flex-end;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #000;
+    margin-top: 28px;
+    float: right;
+    text-align: center;
+    margin-right:200px;
+}
+select option:disabled {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-stretch:wider;
+    text-align: center;
+
+}
+
+
+input[type="number"] {
+    height: 30px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px 10px 10px 10px;
+    width: 105px;
+    justify-content: flex-end;
+    border: 1px solid #000;
+    margin-top: 8px;
+    float:left;
+    text-align: center;
+    margin-left:95px;
+    margin-bottom:10px;
+}
+select
+{
+    width: 180px;
+    height: 40px;
+    border: 1px solid #080707;
+    border-color: rgb(7, 7, 7);
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 0px;
+    text-align-last:center;
+    font-size:small;
+
+}
+div
+{
+    padding-top:8px;
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:8px;
+
+}

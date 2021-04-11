@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>database</title>
+    <style>
+
+/*
+	Side Navigation Menu V2, RWD
+	===================
+	Author: https://github.com/pablorgarcia
+ */
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  line-height: 0.76em;
+
+
+  color:#A7A1AE;
+  background-color:#1F2739;
+}
+
+h1 {
+  font-size:3em;
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: #4DC3FA;
+}
+
+h2 {
+  font-size:1em;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height:1em;
+  padding-bottom: 1em;
+  color: #4eff53;
+}
+
+
+
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
+
+.container th h1 {
+	  font-weight: bold;
+	  font-size: 0.5em;
+      text-align: left;
+     color: #185875;
+     padding-left:10px;
+}
+
+.container td {
+	  font-weight: normal;
+	  font-size: 0.5em;
+	  font-weight: 600;
+	  font: small-caption;
+
+
+  -webkit-box-shadow: 0 1px 1px -1px #0E1119;
+	   -moz-box-shadow: 0 1px 1px -1px #0E1119;
+	        box-shadow: 0 1px 1px -1px #0E1119;
+}
+
+.container {
+	  text-align: left;
+	  overflow: hidden;
+
+	  width: 40%;
+	  margin: 0 auto;
+  display: table;
+
+}
+
+.container td{
+
+	  padding: 10px;
+}
+
+.container th {
+	  padding-bottom: 1%;
+	  padding-top: 1%;
+      padding-left:0%;
+      font-size: xx-small;
+      font-weight:bold;
+      font:small-caption;
+
+
+      border-right-width:medium;
+
+
+
+}
+.container th:hover {
+           background-color: #464A52;
+        -webkit-box-shadow: 0 3px 3px -3px #0E1119;
+               -moz-box-shadow: 0 3px 3px -3px #0E1119;
+                    box-shadow: 0 3px 3px -3px #0E1119;
+}
+
+.container th:hover {
+  background-color: #FFF842;
+  color: #403E10;
+  font-weight: bold;
+
+
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+
+  transition-delay: 0s;
+	  transition-duration: 0.2s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
+
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+	  background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: #2C3446;
+}
+
+.container th {
+	  background-color: #1F2739;
+      border: 0px solid black;
+      padding: 10px;
+
+}
+
+.container td:first-child { color: #FB667A; }
+
+
+.f1-table
+{
+   border-spacing:10px;
+
+}
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+
+<h2>Table Record(prediction)</h2>
+
+<div class="table-wrapper">
+    <table class="fl-table">
+
+        {% for filed in filed_names %}
+
+        <th> {{ filed }}</th>
+        {% endfor %}
+        {% for row in data %}
+        <tr>
+            {% for i in row %}
+            <td> {{ i }}</td>
+
+            {% endfor %}
+        </tr>
+        {% endfor %}
+
+
+    </table>
+</div>
+    </div>
+</body>
+</html>
