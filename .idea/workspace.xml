@@ -29,6 +29,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nikhil\Documents\GitHub\heroku-customer-buying-probability\static\styles\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nikhil\Documents\GitHub\heroku-customer-buying-probability\static\styles" />
       <recent name="C:\Users\nikhil\Documents\GitHub\heroku-customer-buying-probability\static\styles\images1" />
@@ -76,6 +79,7 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620307317575">
@@ -86,22 +90,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1617869482546" />
-    <state width="1306" height="208" key="GridCell.Tab.0.bottom" timestamp="1620374198232">
+    <state width="1306" height="208" key="GridCell.Tab.0.bottom" timestamp="1620374704865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="208" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620374198232" />
-    <state width="1306" height="208" key="GridCell.Tab.0.center" timestamp="1620374198232">
+    <state width="1306" height="208" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620374704865" />
+    <state width="1306" height="208" key="GridCell.Tab.0.center" timestamp="1620374704865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="208" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1620374198232" />
-    <state width="1306" height="208" key="GridCell.Tab.0.left" timestamp="1620374198231">
+    <state width="1306" height="208" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1620374704865" />
+    <state width="1306" height="208" key="GridCell.Tab.0.left" timestamp="1620374704865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="208" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1620374198231" />
-    <state width="1306" height="208" key="GridCell.Tab.0.right" timestamp="1620374198232">
+    <state width="1306" height="208" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1620374704865" />
+    <state width="1306" height="208" key="GridCell.Tab.0.right" timestamp="1620374704865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="208" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620374198232" />
+    <state width="1306" height="208" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620374704865" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1617938156603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
