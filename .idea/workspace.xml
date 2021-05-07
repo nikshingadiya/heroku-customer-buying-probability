@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1qjke6myrqpnlbQpeJxLo5rokZA" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -15,10 +22,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/styles" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nikhil\Documents\GitHub\heroku-customer-buying-probability\static\styles" />
+      <recent name="C:\Users\nikhil\Documents\GitHub\heroku-customer-buying-probability\static\styles\images1" />
+      <recent name="C:\Users\nikhil\Documents\GitHub\heroku-customer-buying-probability\static\styles\images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -28,7 +43,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\nikhil\Documents\experiment\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\nikhil\Documents\customer-buying-probability\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -63,30 +78,30 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617604681195">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620307317575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1617604681195" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1620307317575" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1617869482546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1617869482546" />
-    <state width="1306" height="337" key="GridCell.Tab.0.bottom" timestamp="1617941114509">
+    <state width="1306" height="208" key="GridCell.Tab.0.bottom" timestamp="1620374198232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="337" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617941114509" />
-    <state width="1306" height="337" key="GridCell.Tab.0.center" timestamp="1617941114509">
+    <state width="1306" height="208" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620374198232" />
+    <state width="1306" height="208" key="GridCell.Tab.0.center" timestamp="1620374198232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="337" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617941114509" />
-    <state width="1306" height="337" key="GridCell.Tab.0.left" timestamp="1617941114509">
+    <state width="1306" height="208" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1620374198232" />
+    <state width="1306" height="208" key="GridCell.Tab.0.left" timestamp="1620374198231">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="337" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617941114509" />
-    <state width="1306" height="337" key="GridCell.Tab.0.right" timestamp="1617941114509">
+    <state width="1306" height="208" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1620374198231" />
+    <state width="1306" height="208" key="GridCell.Tab.0.right" timestamp="1620374198232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="337" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617941114509" />
+    <state width="1306" height="208" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620374198232" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1617938156603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

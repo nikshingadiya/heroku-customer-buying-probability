@@ -135,7 +135,9 @@ def submission():
 def about():
     return "<h2>hi im nikhil</h2>"
 
-
+@app.route("/index_1")
+def new_index():
+    return  render_template("index.html")
 # @app.route('/html_login', methods=['POST', 'GET'])
 # def login():
 #     if request.method == 'POST':

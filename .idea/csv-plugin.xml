@@ -38,6 +38,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\templates\index_1.html">
+          <value>
+            <Attribute>
+              <option name="separator" value="&#9;" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\templates\submit_success.html">
           <value>
             <Attribute>
