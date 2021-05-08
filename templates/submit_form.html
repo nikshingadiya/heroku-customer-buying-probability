@@ -23,6 +23,7 @@
 			function myprobability()
 				{
 					document.getElementById("probability").innerHTML={{ probability }}
+					document.getElementById("b1").style.backgroundColor = "#ac0aff";
 
 				}
 			</script>
@@ -46,7 +47,7 @@
 			</form>
 
 
-			<button class="button1" onclick="myprobability()">Probability
+			<button class="button1" id="b1" onclick="myprobability()">Probability
 			</button>
 
 			<span id="probability" class="font-big" > None  </span>
