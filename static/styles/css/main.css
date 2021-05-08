@@ -630,3 +630,57 @@ only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }
+.button1{
+  background-color: #8e63a365; /* Green */
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 0px 2px;
+  cursor: pointer;
+
+
+
+}
+.button1:hover
+{
+  background-color: #ac0aff; /* Green */
+
+}
+.font-big
+
+{
+  padding: 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 30%;
+  float: right;
+  margin-left: 5%;
+  color: white;
+  font-size: 19px;
+
+
+  font-weight: bolder;
+  border-color: rgb(8, 51, 68);
+  background-color: #992ad2d9;
+  border-radius: 12px;
+}
+.result_feedback
+{
+  margin-top:0px;
+  /* display: inline-block; change the display type           */
+  /* margin: 10px 0;  */
+  /* line-height: 1.5; */
+  float: right;
+  margin-left: 0%;
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #ff9d09fb;
+  font-weight:bolder;
+  line-height: 1.2;
+}

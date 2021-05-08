@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>submit_review</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static',filename='styles/images1/favicon.ico') }}" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/vendor/select2/select2.min.css') }}">
+	<!--	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/vendor/bootstrap/css/bootstrap.mini.css') }}">-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/vendor/bootstrap/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/css/main.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/css/util.css') }}">
+<script>
+		if (screen.width > 590) {
+			var mvp = document.getElementById('viewport');
+			mvp.setAttribute('content','width=1080');
+
+
+		}
+		</script>
+		<script>
+			function myprobability()
+				{
+					document.getElementById("probability").innerHTML={{ probability }}
+
+				}
+			</script>
+</head>
+<body>
+<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" action=""> <span class="contact100-form-title">
+				    Next Time Customer Buy Or Not
+				</span>
+                 {% for i in feedback.items() %}
+				<div class="wrap-input100 validate-input">	<span class="label-input100">{{ i[0]  }} </span>
+					<span class="result_feedback">{{ i[1] }}</span>
+				</div>
+                <span class="focus-input100"></span>
+
+                 {% endfor %}
+
+
+
+			</form>
+
+
+			<button class="button1" onclick="myprobability()">Probability
+			</button>
+
+			<span id="probability" class="font-big" > None  </span>
+		</div>
+	</div>
+
+</body>
+</html>
