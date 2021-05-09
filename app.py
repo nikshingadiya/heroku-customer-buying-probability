@@ -64,6 +64,7 @@ def random():
 def predction(pred_values):
     model = pickle.load(open('model.pkl', 'rb'))
     output = model.predict_proba(pred_values)
+
     print(output[0][1])
     return float(output[0][1])
 
