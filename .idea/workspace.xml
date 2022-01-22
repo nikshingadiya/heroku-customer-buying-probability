@@ -24,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dash-visualization-code/experiment_youtube" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -105,41 +105,25 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620480577501">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1633065234558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1620480577500" />
-    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1620488207609">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1633065234558" />
+    <state width="1306" height="243" key="GridCell.Tab.0.bottom" timestamp="1635928565071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1620488207609" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1620488239712">
+    <state width="1306" height="243" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635928565071" />
+    <state width="1306" height="243" key="GridCell.Tab.0.center" timestamp="1635928565070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620488239712" />
-    <state width="1306" height="188" key="GridCell.Tab.0.bottom" timestamp="1620538407719">
+    <state width="1306" height="243" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1635928565070" />
+    <state width="1306" height="243" key="GridCell.Tab.0.left" timestamp="1635928565070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620538407719" />
-    <state width="1306" height="188" key="GridCell.Tab.0.center" timestamp="1620538407718">
+    <state width="1306" height="243" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1635928565070" />
+    <state width="1306" height="243" key="GridCell.Tab.0.right" timestamp="1635928565071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="188" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1620538407718" />
-    <state width="1306" height="188" key="GridCell.Tab.0.left" timestamp="1620538407718">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1306" height="188" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1620538407718" />
-    <state width="1306" height="188" key="GridCell.Tab.0.right" timestamp="1620538407718">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1306" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620538407718" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1617938156603">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1617938156603" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1617863342479">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617863342479" />
+    <state width="1306" height="243" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1635928565071" />
   </component>
 </project>
